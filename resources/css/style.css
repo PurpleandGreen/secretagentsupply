@@ -185,31 +185,37 @@ html body {
   padding-top: 3rem;
 }
 
+/* cannot figure out how to get h3s and images to line up correctly. help please?*/
 #location h3 {
+  display: inline-block;
   color: white;
   background-color: black;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  width: 65%;
   height: 1rem;
   margin-top: 3rem;
 }
 
 #location p {
+  display: inline-block;
   color: black;
   background-color: none;
+  width: 65%;
 }
-
+/* cannot figure out the width and centering on this one. help please?*/
 #hours h3 {
+  display: inline-block;
   color: white;
   background-color: black;
   padding-left: 2rem;
-  width: 65%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   height: 1rem;
   margin-top: 3rem;
   text-align: center;
+  width: 65%;
 }
 
 .footer {
@@ -217,9 +223,6 @@ html body {
   background-color: black;
   height: 5rem;
   margin-top: 4rem;
-}
-
-.footer h5 {
   color: white;
   text-align: left;
   padding-top: 2rem;
