@@ -1,4 +1,20 @@
 
+
+/*this media query isn't working. Can someone help with why it's not working?*/
+@media only screen and (max-width: 1024px) {
+  .nav-condensed {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  .nav-full {
+    display: none;
+  }
+
+}
+
 html body {
   font-size:18px;
   font-family: Helvetica;
@@ -84,7 +100,7 @@ html body {
   margin-left: 3rem;
 }
 
-.nav {
+.nav-full {
   display: flex;
   justify-content: space-around;
   background-color: firebrick;
@@ -92,12 +108,16 @@ html body {
   height: 2.75rem;
 }
 
-.nav a {
+.nav-full a {
   display: inline-block;
   color: white;
   text-decoration: none;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.nav-condensed a{
+  display:none;
 }
 
 .productgrid {
